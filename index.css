@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(#fff, #f5f9ff);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3em;
+  color: #333;
+  text-shadow: 2px 2px #ccc;
+  margin-top: 30px;
+}
+
+.banner {
+  width: 80%;
+  margin: 40px auto 20px auto;
+  border-radius: 25px;
+  padding: 15px 20px;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  box-shadow: 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.banner.yellow {
+  background: linear-gradient(90deg, #ffeb3b, #fdd835);
+  color: #333;
+}
+
+.banner.red {
+  background: linear-gradient(90deg, #f44336, #e53935);
+  color: white;
+}
+
+.banner.blue {
+  background: linear-gradient(90deg, #42a5f5, #1e88e5);
+  color: white;
+}
+
+.banner.small {
+  font-size: 1.2em;
+  padding: 8px 0;
+}
+
+/* === Bright Green Letter Buttons for Racing Game === */
+.menu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.menu-btn {
+  background-color: #3ecf5b;
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  padding: 25px 60px;
+  cursor: pointer;
+  box-shadow: 0 8px #2fa04a;
+  transition: all 0.2s ease;
+}
+
+.menu-btn:hover {
+  background-color: #2fa04a;
+  transform: translateY(4px);
+}
+
+
+footer {
+  font-size: 1em;
+  color: #777;
+  margin-bottom: 40px;
+}
