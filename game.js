@@ -727,7 +727,7 @@ loadWord()
 
 mainMenuBtn.onclick=()=>{
 
-window.location.href="main.html"
+window.location.href="index.html"
 
 }
 
